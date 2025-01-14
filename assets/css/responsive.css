@@ -1,0 +1,163 @@
+@media screen and (min-width:1280px) {
+  .navbar-nav {
+    gap:15px;
+  }
+}
+@media screen and (max-width:1280px) {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width:1199px) {
+   
+}
+@media screen and (max-width: 991px) {
+  .nav-item > a{
+    padding: 10px;
+  }
+  .navbar-collapse {
+    margin-top: 25px;
+  }
+  .header-area {
+    margin-bottom:0px;
+  }
+  .common-heading-section h3 {
+    font-size: 50px;
+  }
+  .common-heading-section h5 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .common-heading-section h4 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .footer {
+    gap: 46px;
+  }
+  .mt-100 {
+    margin-top: 80px;
+  }
+  .ptb-70 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .mt-70 {
+    margin-top: 50px;
+  }
+  .header-right {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width:767px) {
+   
+  .common-heading-section h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 15px;
+    line-height:28px;
+  }
+  .primary-btn, .secondary-btn {
+    padding: 10px 24px;
+    gap:5px;
+    font-size: 16px;
+  }
+  .common-heading-section h4 {
+    font-size: 30px;
+  }
+  .primary-btn img, .secondary-btn img {
+    width: 16px;
+  }
+  .buy-coin-step h6 {
+    font-size: 25px;
+  }
+  .support-list {
+    width: 100%;
+  }
+  .footer {
+    gap:35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-item h4 {
+    font-size: 24px;
+  }
+  .input {
+    padding: 8px 30px;
+  }
+  .footer-subscribe button {
+    height: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    margin-right: 1px;
+  }
+  .footer-logo img {
+    max-width: 105px;
+  }
+  .social-menu ul li a.primary-btn {
+    height: 36px;
+    width: 36px;
+  }
+  .social-menu ul li a i {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:480px) {
+  .p-30 {
+    padding: 20px;
+  }
+  .g-15 {
+    gap: 10px;
+  }
+  .navbar {
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .common-heading-section h3 {
+    font-size:32px;
+  }
+  .common-heading-section h4 {
+    font-size:26px;
+    line-height:35px;
+  }
+  .footer-bottom{
+    justify-content: center !important;
+  }
+  .ellipse {
+    overflow: hidden;
+    width: 300px
+  }
+  .header-area {
+    position: sticky;
+    padding: 0px 0;
+    top: 0px;
+    padding-top: 26px;
+  }
+  .footer-subscribe {
+    max-width: 310px;
+  }
+  .gradient-bg {
+    font-size: 14px;
+  }
+  input{
+    font-size: 14px;
+  }
+  .secondary-outline-btn {
+    padding: 8px 32px;
+    font-size: 16px;
+  }
+  .g-10 {
+    gap:5px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
+
+
