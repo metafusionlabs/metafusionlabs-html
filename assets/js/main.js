@@ -15,6 +15,20 @@ jQuery(document).ready(function ($) {
       arrows: true,
       prevArrow: $('.testimonial-left'),
       nextArrow: $('.testimonial-right'),
+      responsive: [ 
+        {
+          breakpoint:1080,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+        {
+          breakpoint:580,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
     });
     $(document).on("click", function (event) {
       const $div = $("#outside-click");
@@ -63,3 +77,4 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+AOS.init();

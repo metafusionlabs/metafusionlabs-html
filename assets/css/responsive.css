@@ -2,6 +2,9 @@
   .navbar-nav {
     gap:15px;
   }
+  .footer-subscribe input{
+    min-width: 365px !important;
+  }
 }
 @media screen and (max-width:1280px) {
   .navbar {
@@ -10,7 +13,14 @@
   }
 }
 @media screen and (max-width:1199px) {
-   
+  .footer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-description{
+    width: 100%;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 991px) {
   .nav-item > a{
@@ -47,10 +57,64 @@
     margin-top: 50px;
   }
   .header-right {
+    padding-bottom: 50px;
     margin-top: 25px;
+  }
+  .hero-section {
+    padding-top: 90px;
+  }
+  .hero-section::after {
+    height: 52%;
+  }
+  .common-heading-section h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .hero-section .common-heading-section{
+    position: relative;
+    z-index: 9;
+  }
+  .hero-icon-3,.hero-icon-4{
+    opacity: 0.5;
+  }
+  .about-content {
+    padding: 35px;
+  }
+  .mt-120{
+    margin-top: 100px;
+  }
+  .facilitices-card-logo {
+    min-width: 75px;
+    height: 75px;
+  }
+  .choose-icon{
+    margin: auto;
+  }
+  .choose-item{
+    text-align: center;
+  }
+  .list-number {
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+  }
+  .list-number-left {
+    left:0px;
+    top:0px;
+  }
+  .list-number-right{
+    right: 0;
+    top: 0;
   }
 }
 @media screen and (max-width:767px) {
+  .mt-120{
+    margin-top: 90px;
+  }
+  .common-heading-section h2 {
+    font-size:36px;
+    line-height:45px;
+  }
    
   .common-heading-section h3 {
     font-size: 35px;
@@ -81,20 +145,11 @@
     gap:35px;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
   }
   .footer-item h4 {
     font-size: 24px;
   }
-  .input {
-    padding: 8px 30px;
-  }
-  .footer-subscribe button {
-    height: 40px;
-    max-width: 40px;
-    min-width: 40px;
-    margin-right: 1px;
-  }
+ 
   .footer-logo img {
     max-width: 105px;
   }
@@ -105,8 +160,52 @@
   .social-menu ul li a i {
     font-size: 15px;
   }
+  .footer-subscribe{
+    width: 100%;
+    text-align: center;
+  }
+  .common-heading-section span {
+    font-size: 16px;
+  }
+  .testimonial-item{
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .clients-thumbnails{
+    text-align: center;
+    width: 100%;
+  }
+  .clients-thumbnails img{
+    margin: auto;
+  }
+  .rating{
+    justify-content: center;
+  }
+  .ellipse-1 {
+    right:0px;
+    top: -24px;
+  }
+  .hero-thumbnails img {
+    width: 68%;
+  }
+  .hero-icon-1 {
+    left:0px;
+  }
+  .services-section,.hero-section{
+    overflow-x: hidden;
+  }
+  .hero-section{
+    padding-bottom: 20px;
+  }
 }
 @media screen and (max-width:480px) {
+  body{
+    overflow-x: hidden !important;
+  }
+  .footer-item h4 {
+    font-size: 20px;
+  }
   .p-30 {
     padding: 20px;
   }
