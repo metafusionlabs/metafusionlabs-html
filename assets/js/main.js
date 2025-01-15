@@ -8,7 +8,14 @@ jQuery(document).ready(function ($) {
           $(".header-area").removeClass("menu-bg");
       }
     }
- 
+    $('.testimonial-slider').slick({
+      slidesToShow:2,
+      slidesToScroll: 1,
+      autoplay: false,
+      arrows: true,
+      prevArrow: $('.testimonial-left'),
+      nextArrow: $('.testimonial-right'),
+    });
     $(document).on("click", function (event) {
       const $div = $("#outside-click");
       const $navbarText = $("#navbarText");

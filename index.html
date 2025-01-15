@@ -10,6 +10,9 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
    <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
    <link rel="stylesheet" href="assets/css/main.css" />
    <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -75,7 +78,7 @@
                   </div>
                </div>
             </div>
-            <div class="hero-icon-3">
+            <div class="hero-icon-3 moveDown">
                <img src="assets/images/icon/1.png" alt="img">
             </div>
             <div class="hero-icon-4">
@@ -96,18 +99,18 @@
          </div>
          <div class="row gy-4 mt-2">
             <div class="col-md-4">
-               <div class="hero-thumbnails position-relative">
+               <div class="hero-thumbnails position-relative" data-aos="fade-up" data-aos-duration="3000">
                   <img src="assets/images/thumbnails/1.png" alt="img" class="w-100 rounded">
                   <div class="hero-icon-1">
-                     <img src="assets/images/icon/3.png" alt="img">
+                     <img src="assets/images/icon/3.png" alt="img" class="zoom">
                   </div> 
                </div>
             </div>
             <div class="offset-md-4 col-md-4">
-               <div class="hero-thumbnails position-relative">
+               <div class="hero-thumbnails position-relative" data-aos="fade-down" data-aos-duration="1000">
                   <img src="assets/images/thumbnails/2.png" alt="img" class="w-100 rounded">
                   <div class="hero-icon-2">
-                     <img src="assets/images/icon/4.png" alt="img">
+                     <img src="assets/images/icon/4.png" alt="img" class="rotate-box">
                   </div> 
                </div>
             </div>
@@ -130,7 +133,7 @@
                </div>
             </div>
             <div class="col-lg-5">
-               <div class="about-thumbnails">
+               <div class="about-thumbnails" data-aos="zoom-in" data-aos-duration="1000">
                   <img src="assets/images/thumbnails/3.png" alt="image" class="w-100">
                </div>
             </div>
@@ -329,11 +332,14 @@
             </div>
             <div class="col-md-5">
                <div class="service-thumbnails position-relative">
-                  <img src="assets/images/thumbnails/4.png" alt="img" class="w-100">
+                  <img src="assets/images/thumbnails/4.png" alt="img" class="w-100" data-aos="fade-left"
+                     data-aos-anchor="#example-anchor"
+                     data-aos-offset="1000"
+                     data-aos-duration="500">
                   <div class="ellipse-1">
                      <img src="assets/images/icon/3.png" alt="img">
                   </div>
-                  <div class="list-number list-number-left">
+                  <div class="list-number list-number-left" data-aos="zoom-in" data-aos-duration="1000">
                      01
                   </div>
                </div>
@@ -342,11 +348,14 @@
          <div class="row align-items-center gx-5 gy-4 mt-50">
             <div class="col-md-5">
                <div class="service-thumbnails position-relative">
-                  <img src="assets/images/thumbnails/5.png" alt="img" class="w-100">
+                  <img src="assets/images/thumbnails/5.png" alt="img" class="w-100" data-aos="fade-right"
+                     data-aos-anchor="#example-anchor"
+                     data-aos-offset="500"
+                     data-aos-duration="500">
                   <div class="ellipse-2">
                      <img src="assets/images/icon/4.png" alt="img">
                   </div>
-                  <div class="list-number list-number-right">
+                  <div class="list-number list-number-right" data-aos="zoom-in" data-aos-duration="1300">
                      02
                   </div>
                </div>
@@ -372,11 +381,14 @@
             </div>
             <div class="col-md-5">
                <div class="service-thumbnails position-relative">
-                  <img src="assets/images/thumbnails/6.png" alt="img" class="w-100">
+                  <img src="assets/images/thumbnails/6.png" alt="img" class="w-100" data-aos="fade-left"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="1500">
                   <div class="ellipse-1">
                      <img src="assets/images/icon/3.png" alt="img">
                   </div>
-                  <div class="list-number list-number-left">
+                  <div class="list-number list-number-left" data-aos="zoom-in" data-aos-duration="1500">
                      03
                   </div>
                </div>
@@ -385,11 +397,14 @@
          <div class="row align-items-center gx-5 gy-4 mt-50">
             <div class="col-md-6">
                <div class="service-thumbnails position-relative">
-                  <img src="assets/images/thumbnails/7.png" alt="img" class="w-100">
+                  <img src="assets/images/thumbnails/7.png" alt="img" class="w-100" data-aos="fade-right"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="2000">
                   <div class="ellipse-2">
                      <img src="assets/images/icon/4.png" alt="img">
                   </div>
-                  <div class="list-number list-number-right">
+                  <div class="list-number list-number-right" data-aos="zoom-in" data-aos-duration="1800">
                      04
                   </div>
                </div>
@@ -415,11 +430,14 @@
             </div>
             <div class="col-md-5">
                <div class="service-thumbnails position-relative">
-                  <img src="assets/images/thumbnails/8.png" alt="img" class="w-100">
+                  <img src="assets/images/thumbnails/8.png" alt="img" class="w-100" data-aos="fade-left"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="2200"
+                  data-aos-duration="500">
                   <div class="ellipse-1">
                      <img src="assets/images/icon/3.png" alt="img">
                   </div>
-                  <div class="list-number list-number-left">
+                  <div class="list-number list-number-left" data-aos="zoom-in" data-aos-duration="2000">
                      05
                   </div>
                </div>
@@ -491,13 +509,58 @@
                </div>
             </div>
             <div class="col-md-4 text-md-end text-center">
-               <div class="purchase-btn text-center d-inline-block"><a href="#ico2" class="primary-btn">See More <i class="fas fa-arrow-right rotate-left-52"></i></a>
+               <div class="slider-arrows d-flex g-20 justify-content-md-end justify-content-center">
+                     <span class="testimonial-left slick-arrow"><i class="fa-solid fa-arrow-left-long"></i></span>
+                     <span class="testimonial-right slick-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
                </div>
             </div>
          </div>
          <div class="row mt-50">
             <div class="col-md-12">
                <div class="testimonial-slider">
+                  <!-- item -->
+                  <div class="testimonial-item d-flex align-items-center g-20">
+                     <div class="clients-thumbnails">
+                        <img src="assets/images/thumbnails/12.png" alt="img">
+                     </div>
+                     <div class="clients-review">
+                        <h6>Exceptional Web3 Expertise!</h6>
+                        <p>The team exceeded our expectations, delivering a seamless blockchain solution tailored perfectly to our business needs. Their professionalism, innovation, and commitment were evident throughout the process. Highly recommended!</p>
+                        <ul class="rating align-items-center d-flex">
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <div class="client-info">
+                           <h5>Jane Doe</h5>
+                           <p>CEO, Blockchain Innovations Inc.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- item -->
+                  <div class="testimonial-item d-flex align-items-center g-20">
+                     <div class="clients-thumbnails">
+                        <img src="assets/images/thumbnails/13.png" alt="img">
+                     </div>
+                     <div class="clients-review">
+                        <h6>Exceptional Web3 Expertise!</h6>
+                        <p>The team exceeded our expectations, delivering a seamless blockchain solution tailored perfectly to our business needs. Their professionalism, innovation, and commitment were evident throughout the process. Highly recommended!</p>
+                        <ul class="rating align-items-center d-flex">
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                           <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <div class="client-info">
+                           <h5>Jane Doe</h5>
+                           <p>CEO, Blockchain Innovations Inc.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- item -->
                   <div class="testimonial-item d-flex align-items-center g-20">
                      <div class="clients-thumbnails">
                         <img src="assets/images/thumbnails/12.png" alt="img">
@@ -523,6 +586,67 @@
          </div>
       </div>
    </section>
+   <section class="contact-section mt-120" id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 offset-md-2">
+               <div class="common-heading-section text-center">
+                  <h4>Connect with Us</h4>
+                  <p>Unlock the potential of Web3 for your business. Let’s collaborate to craft innovative solutions tailored to your success.</p>
+                  <span>Philip.Burns@MetaFusionLabs.com</span>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="offset-md-2 col-md-8">
+               <form class="form mt-50">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input type="text" class="input form-control" aria-describedby="emailHelp" placeholder="First Name">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input type="text" class="input form-control" aria-describedby="emailHelp" placeholder="Last Name">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input type="email" class="input form-control" aria-describedby="emailHelp" placeholder="Email Address">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group">
+                           <input type="text" class="input form-control" aria-describedby="emailHelp" placeholder="+88 123 658979">
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-group position-relative">
+                           <select class="form-control input" id="exampleFormControlSelect1">
+                              <option>Select Your Subject</option>
+                              <option>Select Your Subject 2</option>
+                              <option>Select Your Subject 3</option>
+                              <option>Select Your Subject 4</option>
+                              <option>Select Your Subject 5</option>
+                           </select>
+                           <span class="select-icon"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-group">
+                           <textarea class="form-control input" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message..."></textarea>
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <button type="submit" class="w-100 mt-40 primary-btn justify-content-center bg-813638">Submit</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
    </div>
    <!-- Footer -->
    <footer class="footer-area mt-100 position-relative">
@@ -539,7 +663,7 @@
                   </div>
                   <div class="footer-item footer-pagination">
                      <h4>Quick Link</h4>
-                     <ul class="d-flex flex-column g-10 mt-20">
+                     <ul class="d-flex flex-column g-10 mt-30">
                         <li><a href="#">
                               Home
                            </a></li>
@@ -554,7 +678,15 @@
                            </a></li>
                         <li><a href="#">Process</a></li>
                         <li><a href="#">Contact Us</a></li>
-                         
+                     </ul>
+                  </div>
+                  <div class="footer-item">
+                     <h4>Social media</h4>
+                     <ul class="social-menu d-flex align-items-center mt-30">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                      </ul>
                   </div>
                   <div class="footer-item footer-subscribe">
@@ -563,11 +695,13 @@
                         <form action="">
                            <div class="input-group">
                               <input type="text" class="form-control" placeholder="Enter your email..." aria-label="Username" aria-describedby="basic-addon1">
-                              </div>
+                           </div>
+                            <button type="submit" class="white-btn mt-30">Subscribe Now <i class="fas fa-arrow-right rotate-left-52"></i></button>
                         </form>
                      </div>
                   </div>
                </div>
+               <div class="line-1 mt-50"></div>
                <div class="footer-bottom d-flex align-items-center justify-content-center mt-20 mb-20 flex-wrap">
                   <p>&copy; 2025 Meta Fusion Lab. All Rights Reserved.</p>
                </div>
@@ -579,8 +713,12 @@
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
    <script src="assets/js/main.js"></script>
-   
+   <script>
+      AOS.init();
+   </script>
 </body>
 
 </html>
