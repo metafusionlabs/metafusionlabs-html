@@ -90,8 +90,10 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
   background: #C63F44;
   border-radius: 10px;
+  position: relative;
   border: 1px solid transparent;
 }
+ 
 .primary-btn:hover{
   border-color:#C63F44 !important;
   color:#3F3F40;
@@ -99,6 +101,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .primary-btn:hover i{
   color:#3F3F40;
+  transform: rotate(0deg);
 }
 .sm-primary-btn{
 	padding:8px 20px;
@@ -111,6 +114,9 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
   position: relative;
   z-index: 9;
+}
+.nav-link.active {
+	color: #dfcd41 !important;
 }
 .border-gradient:hover{
   border: 1px solid transparent;
@@ -614,6 +620,24 @@ a.nav-link.dropdown-toggle i{
   padding: 30px 20px;
   border-radius: 10px;
   height:100%;
+  position: relative;
+}
+.choose-item:hover:after,.facilities-card:hover:after{
+  display: block;
+}
+.choose-item::after,.facilities-card:after {
+  display: none;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+  transition: 0.5s;
+	height: 45px;
+	width: 45px;
+	background-color: #C74448;
+	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+	opacity: 0.7;
+  border-radius: 0 0px 10px 0;
 }
 .choose-item:hover .choose-icon{
   border-color:#C9474C;
@@ -657,6 +681,7 @@ a.nav-link.dropdown-toggle i{
   background-color:#fff;
   border-radius: 10px;
   transition: 0.5s;
+  position: relative;
 }
 .facilities-card:hover .facilitices-card-logo{
   background-color:#8A212514;
