@@ -17,7 +17,6 @@ body {
 button{
   background-color: transparent;
   outline:none;
-  
 }
  .input-group input{
   outline: none;
@@ -48,7 +47,6 @@ input{
   background-color: #e1e1e1;
 }
  input:focus{
- 
   box-shadow:  0 0 0 0 transparent;
  }
 p{
@@ -93,7 +91,6 @@ h1,h2,h3,h4,h5,h6{
   position: relative;
   border: 1px solid transparent;
 }
- 
 .primary-btn:hover{
   border-color:#C63F44 !important;
   color:#3F3F40;
@@ -404,7 +401,6 @@ a.nav-link.dropdown-toggle i{
 .support-list{
   width: 45%;
 }
- 
 .footer-pagination ul li a p:hover,.footer-bottom ul li a p:hover{
   color: #DFCD41;
 }
@@ -488,7 +484,6 @@ a.nav-link.dropdown-toggle i{
  .mt-50{
   margin-top: 50px;
  }
-  
 .common-heading-section h5{
   font-size:30px;
   line-height: auto;
@@ -501,7 +496,6 @@ a.nav-link.dropdown-toggle i{
   padding-top:25px;
   display: inline-block;
 }
- 
 @keyframes zoomBackground {
   0% {
     background-size: 100% 100%;
@@ -752,7 +746,6 @@ a.nav-link.dropdown-toggle i{
 .client-info h5 a:hover{
   color: #F0656A;
 }
-
 .testimonial-section{
   padding: 120px 0;
   background: #F5F5F5;
@@ -766,7 +759,6 @@ a.nav-link.dropdown-toggle i{
   margin-top:4px;
 }
 .testimonial-item{
-  /* box-shadow: 2px 2px 15px 0px #00000026; */
   border-radius: 10px;
   padding: 30px;
   height: 100%;
@@ -788,15 +780,13 @@ a.nav-link.dropdown-toggle i{
   transform: scale(1.1);
 }
 .slick-track {
-  display: flex !important; /* Ensure flexbox layout for proper spacing */
-  gap: 20px; /* Set the desired gap between items */
+  display: flex !important;
+  gap: 20px;
 }
-
 .slick-slide {
-  float: none !important; /* Override Slick's float style */
-  margin: 0; /* Reset margin if previously set */
+  float: none !important;
+  margin: 0;
 }
-
 .rating{
   margin-top: 16px;
   gap:6px;
