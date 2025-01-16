@@ -37,7 +37,7 @@
   }
   .common-heading-section h5 {
     font-size: 24px;
-    line-height: 20px;
+    line-height: 30px;
   }
   .common-heading-section h4 {
     font-size: 35px;
@@ -106,8 +106,19 @@
     right: 0;
     top: 0;
   }
+  .web-3-facilities {
+    padding: 90px 0;
+  }
 }
 @media screen and (max-width:767px) {
+  .navbar-brand img {
+    max-width: 126px;
+  }
+  .list-number {
+    height: 65px;
+    width: 65px;
+    font-size: 18px;
+  }
   .mt-120{
     margin-top: 90px;
   }
