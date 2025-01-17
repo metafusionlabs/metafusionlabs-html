@@ -89,5 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
-
 AOS.init();
+window.addEventListener('load', () => {
+  const preloader = document.getElementById('preloader');
+  preloader.classList.add('loader-hide');
+ });
