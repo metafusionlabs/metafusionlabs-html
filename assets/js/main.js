@@ -36,7 +36,6 @@ jQuery(document).ready(function ($) {
           $navbarText.removeClass("show");
       }
   });
-
   $(window).on('scroll', function() {
       if ($(window).scrollTop() > 300) {
           $('header').addClass('menu-bg-fixed');
@@ -46,10 +45,8 @@ jQuery(document).ready(function ($) {
       checkScroll();
       updateActiveNav();
   });
-
   // Run on page load
   checkScroll();
-
   // Function to update active nav link based on scroll position
   function updateActiveNav() {
       const scrollPosition = $(window).scrollTop() + $(window).height() / 2; // Adjust based on needs
@@ -67,7 +64,6 @@ jQuery(document).ready(function ($) {
       });
   }
 });
-
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll('.nav-link'); // Select all nav links
   const offset = 100; // Gap from the top
@@ -77,13 +73,11 @@ document.addEventListener("DOMContentLoaded", function () {
           event.preventDefault(); // Prevent default anchor behavior
           const targetId = this.getAttribute("href").substring(1); // Get the target section ID
           const targetSection = document.getElementById(targetId);
-
           if (targetSection) {
               const topPosition = targetSection.getBoundingClientRect().top + window.scrollY - offset;
-
               window.scrollTo({
                   top: topPosition,
-                  behavior: "smooth" // Smooth scrolling
+                  behavior: "smooth"
               });
           }
       });
